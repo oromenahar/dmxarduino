@@ -1630,6 +1630,12 @@
 		(uuid "3f7dabbf-bccf-4eb3-860e-c44439ea8d23")
 	)
 	(junction
+		(at 45.72 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4275876c-30da-4438-872c-8ea9461800f7")
+	)
+	(junction
 		(at 46.99 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1664,6 +1670,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "65ceb024-634c-47db-a4d0-3b29c6da8224")
+	)
+	(junction
+		(at 45.72 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6e65886e-d8c5-4fa6-a9df-bc3f10a61b91")
 	)
 	(junction
 		(at 200.66 64.77)
@@ -1714,12 +1726,6 @@
 		(uuid "b01a2f17-df52-4deb-9721-3b8a8bf6b63c")
 	)
 	(junction
-		(at 40.64 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b621f4b9-debb-4ac3-9892-b46d76d09f09")
-	)
-	(junction
 		(at 252.73 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1742,12 +1748,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cd5c0134-faf9-4d2b-9e0a-9b49b1005fcf")
-	)
-	(junction
-		(at 40.64 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cf99d8f9-d25d-4492-a517-5542fa6cd64e")
 	)
 	(junction
 		(at 73.66 59.69)
@@ -2003,7 +2003,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 86.36) (xy 38.1 86.36)
+			(xy 38.1 86.36) (xy 45.72 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2113,7 +2113,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 59.69) (xy 40.64 69.85)
+			(xy 45.72 59.69) (xy 45.72 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2353,7 +2353,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 86.36) (xy 40.64 86.36)
+			(xy 46.99 86.36) (xy 45.72 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2423,7 +2423,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 59.69) (xy 40.64 59.69)
+			(xy 55.88 59.69) (xy 45.72 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2813,7 +2813,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 77.47) (xy 40.64 86.36)
+			(xy 45.72 82.55) (xy 45.72 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2833,7 +2833,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 59.69) (xy 34.29 59.69)
+			(xy 34.29 59.69) (xy 45.72 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3856,7 +3856,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 56.8452 77.47 0)
 			(effects
 				(font
@@ -3883,7 +3883,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C377773"
+		(property "LCSC" "C1021612"
 			(at 55.88 73.66 0)
 			(effects
 				(font
@@ -4513,7 +4513,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 40.64 73.66 0)
+		(at 45.72 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4522,7 +4522,7 @@
 		(fields_autoplaced yes)
 		(uuid "95afe0fb-1272-4c4a-b7b4-1da6356a67dd")
 		(property "Reference" "C5"
-			(at 44.45 72.3899 0)
+			(at 49.53 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4531,7 +4531,7 @@
 			)
 		)
 		(property "Value" "2.2uF"
-			(at 44.45 74.9299 0)
+			(at 49.53 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4539,8 +4539,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 41.6052 77.47 0)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 46.6852 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4549,7 +4549,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 40.64 73.66 0)
+			(at 45.72 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4558,7 +4558,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 40.64 73.66 0)
+			(at 45.72 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4566,8 +4566,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C377773"
-			(at 40.64 73.66 0)
+		(property "LCSC" "C1021612"
+			(at 45.72 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
